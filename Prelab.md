@@ -27,7 +27,7 @@ To install a package, type:
 
 For each package, Conda will assess what the install list will be and the size of the packages (so the package you specified and any dependencies of that package), and ask you to confirm that it is ok to install the required list. If you agree type "y" and press enter.
 
-![](terminal_package_install_copy.png)
+![](terminal_package_install_copy.png | width=100)
 
 
 Packages to install (for now):
