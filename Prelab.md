@@ -10,11 +10,11 @@ The full Anaconda is very thorough, but also quite hefty (>3 GB), so instead we'
 _(For what it is worth, I saw an error at the end of my installation, but have yet to understand why because it works fine.)_
 
 3. To create an environment for this class, open Terminal and type:
->```conda create --name geol_351 python=3.9```
+>`conda create --name geol_351 python=3.9`
 
 ### Activate
 4. To activate that environment, type:
-> ```conda activate geol_351```
+> `conda activate geol_351`
 
 Great!  You should see [geol_351] prepended to the command line prompt. In future, before you start working, activate the environment by using the prompt above (for step 4). 
 
@@ -23,11 +23,11 @@ Now it's time to install packages.  You only need to do this once in each enviro
 
 
 To install a package, type:
->```conda install [package name without brackets]```
+>`conda install [package name without brackets]`
 
 For each package, Conda will assess what the install list will be and the size of the packages (so the package you specified and any dependencies of that package), and ask you to confirm that it is ok to install the required list. If you agree type "y" and press enter.
 
-![](https://github.com/jordanplanders/ODVx/blob/d0c2ef9c9fed707e5df266a02021d869880618ff/terminal_package_install_copy.png?v=4&s=100)
+![](https://github.com/jordanplanders/ODVx/blob/d0c2ef9c9fed707e5df266a02021d869880618ff/terminal_package_install_copy.png?v=4&s=50)
 
 
 Packages to install (for now):
@@ -36,10 +36,10 @@ Packages to install (for now):
 - jupyter notebook
 
 ### Booting up Jupyter Notebook
-Use terminal to navigate to where you want to keep your GEOL 351 coursework. 
+Use terminal to navigate to the directory for your GEOL 351 coursework. 
 
 Type: 
->```jupyter notebook```
+>`jupyter notebook`
 
 A browser window should automatically open and show you a screen with a header like this:
 ![](jupyter_startup_header2.png)
